@@ -65,6 +65,7 @@
   </Attributes>
   <Docs>
     <summary>Represents the Persian calendar.</summary>
+    <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-globalization-persiancalendar">System.Globalization.PersianCalendar class</see>.</remarks>
     <example>
       <format type="text/markdown"><![CDATA[
         The following example instantiates <xref:System.DateTime> objects by using the <xref:System.DateTime.Now?displayProperty=nameWithType> property, a <xref:System.DateTime> constructor, and the Persian calendar's <xref:System.Globalization.Calendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)> method. It then displays these dates in both the Gregorian and Persian calendars. It also displays the date range of the Persian calendar.
@@ -78,7 +79,6 @@
         :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR/sys.glob.persianCal/vb/pcal.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-globalization-persiancalendar">System.Globalization.PersianCalendar class</see>.</remarks>
     <altmember cref="T:System.Globalization.Calendar" />
     <altmember cref="P:System.Globalization.CultureInfo.Calendar" />
     <altmember cref="P:System.Globalization.CultureInfo.OptionalCalendars" />
